@@ -7,7 +7,10 @@ Throughout this game, you will be face with many difficult choices that force yo
 Good luck adventurer and may the Dragon Lords be with you!
 
 
-![image](https://user-images.githubusercontent.com/77823717/204332750-6f722384-ae14-49ec-be17-4a4738733988.png)
+
+
+![image](https://user-images.githubusercontent.com/77823717/204333444-7bc67a6d-489b-47e6-8d36-77e9c618861d.png)
+
 
 
 
