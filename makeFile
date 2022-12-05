@@ -1,0 +1,44 @@
+JCC = javac
+
+jFLAGS = -g
+
+default:
+	Boss.class Brick.class Inventory.class Menu.class Option_1_pt1.class Option_1_pt2.class Option_1_pt3.class Option_1.class Option_3.class RNG_table.class
+
+	@echo "Compiling..."
+
+
+	Boss.class: bossFight.java
+		$(JCC) $(jFLAGS) bossFight.java
+
+	brick.class: Brick.java
+		$(JCC) $(jFLAGS) Brick.java
+
+	Inventory.class: Inventory.java
+		$(JCC) $(jFLAGS) Inventory.java
+
+	Menu.class: Menu.java
+		$(JCC) $(jFLAGS) Menu.java
+
+	Option_1_pt1.class: Option_1_pt1.java
+		$(JCC) $(jFLAGS) Option_1_pt1.java
+	
+	Option_1_pt2.class: Option_1_pt2.java
+		$(JCC) $(jFLAGS) Option_1_pt2.java
+
+	Option_1_pt3.class: Option_1_pt3.java
+		$(JCC) $(jFLAGS) Option_1_pt3.java
+	
+	Option_1.class: Option_1.java
+		$(JCC) $(jFLAGS) Option_1.java
+
+	Option_3.class: Option_3.java
+		$(JCC) $(jFLAGS) Option_3.java
+	
+	RNG_table.class: RNG_table.java
+		$(JCC) $(jFLAGS) RNG_table.java
+	
+
+	@echo "Complete"
+
+
